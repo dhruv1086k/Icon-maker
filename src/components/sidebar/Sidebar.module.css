@@ -31,6 +31,12 @@
   border-radius: 1rem;
   background: #fff;
   cursor: pointer;
+  transition: all 0.2s;
+}
+
+.menuChild:hover {
+  background: #df0025;
+  color: #fff;
 }
 
 .theme {
