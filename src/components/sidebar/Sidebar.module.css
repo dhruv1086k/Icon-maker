@@ -1,0 +1,55 @@
+.container {
+  background: #1e2235;
+  width: 15%;
+  height: 100%;
+  position: relative;
+}
+
+.logo {
+  color: #fff;
+  text-align: center;
+  margin: 2rem 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.logo span {
+  color: rgb(223, 0, 37);
+}
+
+.menu {
+  margin-top: 4rem;
+}
+
+.menuChild {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  background: #fff;
+  cursor: pointer;
+}
+
+.theme {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 10%;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+
+.themeChild {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 0.5rem 0;
+  gap: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
