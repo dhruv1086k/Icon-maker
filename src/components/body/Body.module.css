@@ -3,3 +3,15 @@
   width: 80%;
   height: 100vh;
 }
+
+.innerContainer {
+  height: 85%;
+  width: 100%;
+  display: flex;
+}
+
+.iconPanel,
+.iconPreview {
+  width: 50%;
+  height: 100%;
+}

@@ -8,9 +8,14 @@ export default function Body({ selectedIdx }) {
     <>
       <div className={styles.container}>
         <Header />
-        {selectedIdx === 0 && <Icon />}
-        {selectedIdx === 1 && <Background />}
-        {selectedIdx === 2 && <Upgrade />}
+        <div className={styles.innerContainer}>
+          <div className={styles.iconPanel}>
+            {selectedIdx === 0 && <Icon />}
+            {selectedIdx === 1 && <Background />}
+            {selectedIdx === 2 && <Upgrade />}
+          </div>
+          <div className={styles.iconPreview}></div>
+        </div>
       </div>
     </>
   );
