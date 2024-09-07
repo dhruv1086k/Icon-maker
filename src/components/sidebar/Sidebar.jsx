@@ -8,8 +8,9 @@ import {
 } from "lucide-react";
 import styles from "./Sidebar.module.css";
 import { useState } from "react";
+import Body from "../body/Body";
 
-export default function Sidebar() {
+export default function Sidebar({ setSelectedIdx }) {
   const [selected, setSelected] = useState(0);
   const [themeColor, setThemeColor] = useState(0);
 
@@ -50,6 +51,7 @@ export default function Sidebar() {
             <div
               onClick={() => {
                 setSelected(idx);
+                setSelectedIdx(idx);
               }}
               key={idx}
               className={styles.menuChild}
